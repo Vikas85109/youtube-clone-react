@@ -1,0 +1,9 @@
+export { default as Home } from './Home';
+export { default as Watch } from './Watch';
+export { default as Search } from './Search';
+export { default as Channel } from './Channel';
+export { default as History } from './History';
+export { default as WatchLater } from './WatchLater';
+export { default as LikedVideos } from './LikedVideos';
+export { default as Trending } from './Trending';
+export { default as NotFound } from './NotFound';

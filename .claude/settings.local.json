@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(del \"C:\\vikas__ss_project\\youtube-clone-react\\src\\components\\Navbar\\Navbar.js\" \"C:\\vikas__ss_project\\youtube-clone-react\\src\\components\\Navbar\\Navbar.css\")",
+      "Bash(npm start)"
+    ]
+  }
+}
