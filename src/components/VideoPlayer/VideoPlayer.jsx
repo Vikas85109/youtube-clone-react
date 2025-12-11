@@ -7,7 +7,7 @@ const VideoPlayer = ({ video }) => {
   const dispatch = useDispatch();
   const playerRef = useRef(null);
   const containerRef = useRef(null);
-  const [playing, setPlaying] = useState(true);
+  const [playing, setPlaying] = useState(false);
   const [progress, setProgress] = useState(0);
 
   const savedProgress = useSelector(selectVideoProgress(video?.id));

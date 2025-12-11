@@ -3,7 +3,10 @@
     "allow": [
       "Bash(npm install:*)",
       "Bash(del \"C:\\vikas__ss_project\\youtube-clone-react\\src\\components\\Navbar\\Navbar.js\" \"C:\\vikas__ss_project\\youtube-clone-react\\src\\components\\Navbar\\Navbar.css\")",
-      "Bash(npm start)"
+      "Bash(npm start)",
+      "Bash(npx md-to-pdf:*)",
+      "Bash(npx kill-port:*)",
+      "Bash(npm run dev:*)"
     ]
   }
 }

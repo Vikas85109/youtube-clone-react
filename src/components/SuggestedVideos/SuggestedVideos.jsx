@@ -6,7 +6,8 @@ import { formatViews, formatDuration, formatRelativeTime } from '../../utils/hel
 const SuggestedVideoCard = ({ video }) => {
   return (
     <Link
-      to={`/watch/${video.id}`}
+      // to={`/watch/${video.id}`}
+      to={`#`}
       className="flex gap-2 group"
     >
       {/* Thumbnail */}
